@@ -57,10 +57,54 @@ body:before{
 .homepage_logo {
   background: #000000a8;
   position: absolute;
-  top: 30vh;
+  top: 28vh;
   left: 27vw;
   border-radius: 3%;
   box-shadow: #ff42fd 0 0 30px -1px;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+}
+
+@media (max-width: 1100px) {
+  .homepage_logo {
+    width: 48%;
+    left: 26vw;
+    top: 31vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .homepage_logo {
+    width: 44%;
+    left: 28vw;
+    top: 39vh;
+  }
+}
+
+@media (max-width: 720px) {
+  .homepage_logo {
+    width: 50%;
+    left: 25vw;
+    top: 39vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .homepage_logo {
+    width: 57%;
+    left: 20vw;
+    top: 42vh;
+  }
+}
+
+@media (max-width: 460px) {
+  .homepage_logo {
+    width: 72%;
+    left: 11vw;
+    top: 42vh;
+  }
 }
 
 .wall {
